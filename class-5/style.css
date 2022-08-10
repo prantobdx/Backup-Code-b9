@@ -1,0 +1,63 @@
+.wrapper{
+    height: auto;
+    width: 600px;
+    border: 1px dashed black;
+    margin: auto;
+}
+.row-1
+{
+    height: 80px;
+    width: 100%;
+    border-bottom: 1px solid red;
+}
+
+.col-1
+{
+    height: 80px;
+    width: 120px;
+    border-right: 1px solid blue;
+    float: left;
+}
+
+.col-2
+{
+    height: 80px;
+    width: 478px;
+    float: left;
+}
+.row-2
+{
+    height:60px;
+    width: 100%;
+    border-bottom: 1px solid blue;
+}
+.row-3
+{
+    height: 520px;
+    width: 100%;
+    border-bottom: 1px sloid red;
+}
+.col-4
+{
+    height: 520px;
+    width: 20%;
+    border-right: 1px solid blue;
+    float: left;
+}
+.col-5
+{
+    height: 520px;
+    width: 79.8%;
+    float: left;
+    background-image: url(./img/gallery-1.jpeg);
+    background-repeat: repeat; 
+    background-size: 530px 500px; 
+    background-attachment: fixed;
+}
+.row-4
+{
+    height: 40px;
+    width: 100%;
+    border-top: 1px solid blue ;
+    border-bottom: 1px solid blue ;
+}

@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>class-5</title>
+    <style>
+        table{
+         border: 1px solid red;
+         height:700px;
+         width: 600px;
+         margin: auto;
+        }
+        .tr
+        {
+         height: 80px;  
+        }
+        tr td{
+            border-bottom: 1px solid red;
+        }
+        .tr .td{
+            border-right: 1px solid red;
+            width: 150px;
+        }
+        .td-1{
+            width: 450px;
+        }
+        .td-2{
+            width: 100%;
+            height: 60px;
+        }
+        .tr-2{
+            height: 520px;
+        }
+        .tr-2 .td-3{
+            width: 100px;
+            border-right: 1px solid red;
+        }
+        .tr-3{
+            height: 40px;
+        }
+        .td-4
+        {
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <table>
+        <tr class="tr">
+            <td class="td"></td>
+            <td class="td-1"></td>
+        </tr>
+        <tr>
+            <td class="td-2" colspan="2"></td>
+        </tr>
+        <tr class="tr-2">
+            <td class="td-3"></td>
+            <td class="td-1"></td>
+        </tr>
+        <tr class="tr-3">
+            <td class="td-4" colspan="2"></td>
+        </tr>
+    </table>
+    
+</body>
+</html>

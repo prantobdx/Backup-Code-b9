@@ -1,0 +1,67 @@
+.rectangular
+{
+    width: 440px;
+    height: 280px;
+    background-color: skyblue;
+    margin: auto;
+    margin-top: 3%;
+    position: relative;
+}
+.circle{
+    width: 150px;
+    height: 150px;
+    background-color: red;
+    border-radius: 50%;
+    position: absolute;
+    left: 32%;
+    top: 23%;
+}
+.sticky
+{
+    width: 20px;
+    height: 580px;
+    background-color: black;
+    float: left;
+    position: absolute;
+    top: -5%;
+    left: -7%;
+}
+.a{
+    width: 25px;
+    height: 3px;
+    background-color: blue;
+    position: absolute;
+    top: 13%;
+    left: -3%;
+}
+.b{
+    width: 25px;
+    height: 3px;
+    background-color: blue;
+    position: absolute;
+    top: 81%;
+    left: -4%;
+    float: left;
+}
+/* ................... */
+.for-image-border{
+    height: 400px;
+    width: 400px;
+    border: 2px solid blue;
+    margin: auto;
+    margin-top: 23% ;
+    position: inherit;
+
+}
+.for-image
+{
+    width:395px;
+    height: 390px; 
+    position: absolute;
+    background-image: url(./img/river-1.jpg);
+    background-size: 394px 389px;
+    background-repeat: no-repeat;
+    margin-top: 4px;
+    margin-left: 2.5px;
+    
+}
