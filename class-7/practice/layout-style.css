@@ -1,0 +1,107 @@
+.grid{
+    display: table;
+    height: auto;
+    width: 100%;
+    table-layout: fixed;
+}
+
+.col{
+    display: table-cell;
+    border: 2px solid blue;
+}
+
+.col-lay-2
+{
+    display: table-cell;
+    border: 2px solid rgb(24, 95, 6);
+}
+
+.col-lay-3
+{
+    display: table-cell;
+    border: 2px solid rgb(177, 6, 162);
+}
+  
+/* maintaing-widht  */
+.col-1{width: 8.33%;}
+.col-2{width: 16.66%;}
+.col-3{width: 25%;}
+.col-4{width: 33.33%;}
+.col-5{width: 41.66%;}
+.col-6{width: 50%;}
+.col-7{width: 58.33%;}
+.col-8{width: 66.66%;}
+.col-9{width: 75%;}
+.col-10{width: 83.33%;}
+.col-11{width: 91.66%;}
+.col-12{width: 100%;}
+
+.layout-title{
+    margin-top: 20px;
+    text-align: center;
+}
+
+.logo
+{
+    height: 100%;
+    width: 100%;
+    background-image: url(./img/logo-4.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: fixed;
+}
+
+  /*maintaig height */
+.header-height {
+    height: 100px; 
+  }
+  .menu-height {
+    height: 70px;
+    border-top: none;
+    text-align: center;
+    line-height: 70px;
+  }
+  .after-menu-height {
+    height: 120px;
+    border-top: none;
+  }
+  .body-height {
+    height: 500px;
+    border-top: none;
+  }
+  .footer-height {
+    height: 50px;
+    border-top: none;
+  }
+  .h-50 {
+    height: 50px;
+  }
+  .h-200 {
+    height: 200px;
+  }
+  .h-90
+  {
+    height: 90px;
+    border-top:none;
+  }
+  .h-470 {
+    height: 470px;
+    border-top: none;
+  }
+
+  .h-60 {
+    height: 60px;
+    border-top: none;
+  }
+  .h-80{
+    height: 80px;
+  }
+  .after-menu-height-3 {
+    height: 110px;
+    border-top: none;
+  }
+
+  .wrapper-3{
+    margin-top: 50px;
+  }
+  

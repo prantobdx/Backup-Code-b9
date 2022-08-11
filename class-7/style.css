@@ -1,0 +1,46 @@
+.area
+{
+    height: 500px;
+    width: 1200px;
+    margin: auto;
+    border: 1px solid red;
+    overflow-y: scroll;
+}
+
+.area p{
+
+   display: inline-block;
+   /* float: left; */
+   /* visibility: hidden; */
+}
+
+.table
+{
+    height: auto;
+    display: table;
+    border: 1px solid blueviolet;
+    margin: auto;
+}
+.row{
+   display: table-row;
+}
+.col
+{
+    display: table-cell;
+    padding: 20px;
+    text-align: center;
+    border: 1px solid red;
+}
+.caption
+{
+    display: table-caption;
+    border: 2px solid orange;
+    padding: 10px 0px;
+    border-bottom: none;
+    background-color: rgb(216, 130, 159);
+}
+.col-1{
+    display: table-column;
+    background-color: rgb(162, 162, 167);
+}
+
