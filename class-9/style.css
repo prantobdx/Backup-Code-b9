@@ -1,0 +1,119 @@
+*{
+    margin: 0px;
+    padding:0px;
+    box-sizing: border-box;
+}
+body{
+    background-image: url(./img/bakground-1.jpeg);
+    background-size: cover;
+    background-attachment: fixed;
+}
+.menu-bar{
+    background-color: purple;
+    text-align: center;
+
+}
+.menu-bar ul{
+    list-style: none;
+    display:inline-flex;
+}
+.menu-bar ul li {
+    width: 120px;
+    margin: 15px;
+    padding: 15px;
+    border-radius: 5px;
+}
+.menu-bar ul li a{
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.active, .menu-bar ul li:hover{
+    background-color: green;
+}
+
+.menu-bar ul li i{
+    margin-right: 5px;
+}
+
+.sub-menu-1{
+    display: none;
+}
+.menu-bar ul li:hover .sub-menu-1{
+    display: block;
+    position: absolute;
+    margin-top: 15px;
+    margin-left:-15px;
+    background-color: rgb(10, 150, 6);
+    border-radius: 5px;
+}
+.menu-bar ul li:hover .sub-menu-1 ul{
+    display: block;
+    
+}
+.menu-bar ul li:hover .sub-menu-1 ul li{
+    width: 135px;
+    padding: 9px;
+    border-bottom: 1px dotted white;
+    text-align: left;
+}
+.menu-bar ul li:hover .sub-menu-1 ul li:last-child{
+    border-bottom: none;
+}
+.menu-bar ul li:hover .sub-menu-1 ul li:hover{
+    background-color: burlywood;
+}
+.menu-bar ul li:hover .sub-menu-1 ul li:hover a{
+    color: rgb(10, 1, 3);
+    text-transform: capitalize;
+    font-size: 18px;
+}
+.sub-menu-2{
+    display: none;
+}
+.hover-me:hover .sub-menu-2{
+    display: block;
+    position: absolute;
+    margin-left: 125px;
+    margin-top: -17px;
+    background-color: rgb(247, 172, 12);
+    border-radius: 8px;
+}
+.sub-menu-2 ul li:hover a{
+    color: rgb(255, 255, 255) !important;
+    font-size: 20px !important;
+   
+}
+.hover-me:hover .sub-menu-2 ul li:hover{
+    background-color: blue !important; 
+}
+
+.hover-me i{
+    margin-left: 4px;
+}
+/* ..........practice............... */
+
+.sub-menu-3{
+    display: none;
+}
+
+.hover-me-2:hover .sub-menu-3{
+    display: block;
+    position: absolute;
+    background-color: rgb(233, 6, 63);
+    border-radius: 8px;
+    margin-left: 123px;
+    margin-top: -32px;
+}
+
+.hover-me-2:hover .sub-menu-3 ul li:hover{
+   background-color: rgba(7, 231, 247, 0.637) !important;
+}
+
+.sub-menu-3 ul li:hover a{
+    color: black !important;
+    font-size: 17px !important;
+}
+
+
