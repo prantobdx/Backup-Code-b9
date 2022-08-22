@@ -1,0 +1,135 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+}
+.header{
+    min-height: 100vh;
+    width: 100%;
+    background-image:linear-gradient(rgba(3, 30, 51, 0.7),rgba(56, 13, 54, 0.5)),url(../img/banner.png);
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+
+.menu ul li {
+    padding-right: 25px;
+}
+
+.menu ul li a{
+    color: white;
+}
+
+.ps-10{
+    padding-left: 6rem;
+}
+
+.pe-10{
+    padding-right: 4rem;
+}
+.logo img{
+    width: 150px;
+    padding-top: 11px;
+}
+
+.active,.menu ul li:hover a
+{
+    color: aquamarine !important;
+}
+
+.menu ul li::after{
+    content: " ";
+    width: 0%;
+    height: 2px;
+    margin: auto;
+    background-color: red;
+    display: block;
+
+}
+.menu ul li:hover::after{
+    width: 70%;
+}
+.text-box{
+    width: 90%;
+    color: aliceblue;
+    position: relative;
+    top: 50%;
+    left: 5%;
+}
+.text-box h1{
+    font-size: 62px;
+    font-weight: 700;
+}
+.text-box a{
+    color: white;
+    padding: 12px 33px;
+}
+.hero-btn{
+    border-radius: 0px;
+    border-color: azure;
+    transition: 1s;
+}
+.hero-btn:hover{
+    background-color: cornflowerblue;
+    color: #fff;
+    border: 1px solid rgb(255, 255, 255);
+}
+
+/* ..............Practice................ */
+
+  .card
+  {
+    background: #fff3f3;
+    border-radius: 10px;
+    margin-bottom: 5%;
+    padding: 20px 12px;
+    text-align: center;
+    transition: 0.5s;  
+    margin-left: 5%;
+    border: none;
+  }
+
+  .card:hover{
+    /* box-shadow: 3px 3px 3px 3px  rgba(7, 7, 7, 0.26); */
+    box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.233) 0px 2px 16px 0px;
+  }
+
+
+.heading{
+      color: black;
+      font-size: 1.2rem;
+      font-weight: 500;
+      margin-bottom: 0.7rem;
+  }
+  
+ .text
+ {
+    color: #777;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 22px;
+    padding: 10px;
+ }
+/* .............Section-2.................. */
+ .sec-2{
+    margin-top: 3.8rem;
+ }
+
+ .sec-2-content{
+    padding-bottom: 2.3rem;
+ }
+
+ .sec-2-content h2{
+    font-size: 36px;
+    font-weight: 600;
+ }
+
+ .sec-2-content p {
+    color: #777;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 22px;
+    padding: 12px 33px;
+ }
