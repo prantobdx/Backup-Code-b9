@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="0a220310-dde4-4ae1-ab1b-23e2dae1523b" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings" doNotAsk="true" synchronizationState="SYNCHRONIZE">
+    <pharConfigPath>$PROJECT_DIR$/composer.json</pharConfigPath>
+    <execution />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="PhpWorkspaceProjectConfiguration">
+    <include_path>
+      <path value="$PROJECT_DIR$/vendor/composer" />
+    </include_path>
+  </component>
+  <component name="ProjectId" id="2EGhol0SwOxBgaiASTlCKFVw9N3" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/.." />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+  </component>
+  <component name="RunManager">
+    <configuration name="Unnamed" type="ComposerRunConfigurationType" factoryName="Composer Script" nameIsGenerated="true">
+      <option name="commandLineParameters" value="" />
+      <option name="pathToComposerJson" value="$PROJECT_DIR$/composer.json" />
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="0a220310-dde4-4ae1-ab1b-23e2dae1523b" name="Default Changelist" comment="" />
+      <created>1662228006312</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1662228006312</updated>
+      <workItem from="1662228009155" duration="517000" />
+      <workItem from="1662228575603" duration="35000" />
+      <workItem from="1662228705714" duration="24000" />
+      <workItem from="1662228790322" duration="149000" />
+      <workItem from="1662268051442" duration="1856000" />
+      <workItem from="1662386298998" duration="1928000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="2" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="137" y="59" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1662228126800">
+      <screen x="0" y="40" width="1366" height="728" />
+    </state>
+    <state x="137" y="59" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.40.1366.728@0.40.1366.728" timestamp="1662228126800" />
+    <state x="410" y="100" key="FileChooserDialogImpl" timestamp="1662388628138">
+      <screen x="0" y="40" width="1366" height="728" />
+    </state>
+    <state x="410" y="100" key="FileChooserDialogImpl/0.40.1366.728@0.40.1366.728" timestamp="1662388628138" />
+    <state x="313" y="257" key="Performance.Activity.Monitor" timestamp="1662228263424">
+      <screen x="0" y="40" width="1366" height="728" />
+    </state>
+    <state x="313" y="257" key="Performance.Activity.Monitor/0.40.1366.728@0.40.1366.728" timestamp="1662228263424" />
+    <state x="184" y="49" key="SettingsEditor" timestamp="1662228913153">
+      <screen x="0" y="40" width="1366" height="728" />
+    </state>
+    <state x="184" y="49" key="SettingsEditor/0.40.1366.728@0.40.1366.728" timestamp="1662228913153" />
+  </component>
+</project>

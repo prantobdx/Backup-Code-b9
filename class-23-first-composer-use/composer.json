@@ -1,0 +1,14 @@
+{
+    "name": "php-class-23/php-basic",
+    "type":"project",
+    "description": "Composer use",
+    "license": "",
+    "keywords": [],
+    "require": {},
+    "require-dev": {},
+    "autoload": {
+        "psr-4":{
+            "App\\":"app//"
+        }
+    }
+}

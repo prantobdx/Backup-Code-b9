@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>jquery use</title>
+    <style>
+        .img img{
+            width: 100px;
+            height: 100px;
+            margin: auto;
+            margin-left: 2%;
+        }
+        .img-main img{
+            width: 500px;
+            height: 300px; 
+        }
+        .first-div{
+            margin-left: 30%;
+        }
+        .form-use{
+            margin-top: 50px;
+            margin-left: 33%;
+        }
+    </style>
+</head>
+<body>
+    <!-- <div class="first-div">
+        <div class="img-main">
+            <img src="img/img-1.jpg" alt="" id="mainImage">
+        </div>
+    
+        <div class="img">
+            <img src="img/img-2.jpg" alt="" class="img" >
+            <img src="img/img-3.jpg" alt="" class="img" >
+            <img src="img/img-4.jpg" alt="" class="img" >
+            <img src="img/img-5.jpg" alt="" class="img" >
+        </div>
+    </div> -->
+
+    <script src="js/jquery-3.6.0.min.js"></script>
+
+    <script>
+        $('.img').click(function(){
+            var img = $(this).attr('src');
+            $('#mainImage').attr('src',img);
+        })
+        // val dile value nibe ba dhorbe
+        // text dile value ta dhakabe
+    </script>
+
+
+  <div class="form-use">
+    <form action="">
+        <input type="text"  id="fastName1" placeholder="enter first-name">
+        <input type="text" id="lastName" placeholder="enter last-name">
+       </form>
+       <br>
+       <table height="100" width="400" border="1">
+        <tr height="50">
+            <th>First Name</th>
+            <th>Last Name</th>
+            <th>Full Name</th>
+        </tr>
+        <tr height="50">
+            <td id="showFastName"></td>
+            <td id="showLastName"></td>
+            <td id="showFullName"></td>
+        </tr>
+       </table>
+   </div>
+    
+   <script>
+
+   $(document).ready(function(){
+    
+        $("#fastName1").keyup(function(){
+            $("#showFastName").html($("#fastName1").val());
+        });
+
+        $("#lastName").keyup(function(){
+            $("#showLastName").html($("#lastName").val());
+        });
+
+        
+        $("#showFullName").click(function(){
+            var a = $("#showFastName").html();
+            var b = $("#showLastName").html();
+            var fullName = a +' '+ b;
+            $(this).html(fullName);
+        })
+
+   })
+
+   </script>
+
+</body>
+</html>
